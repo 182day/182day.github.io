@@ -122,12 +122,24 @@ window._my_tecnicas = [
 		porcentaje: "65",
 		posicion: 1,
 	},{
-		nombre: "Git & GitHub",
-		porcentaje: "50",
+		nombre: "Apache / Nginx",
+		porcentaje: "65",
 		posicion: 1,
+	},{
+		nombre: "Git & GitHub",
+		porcentaje: "70",
+		posicion: 1,
+	},{
+		nombre: "Figma",
+		porcentaje: "60",
+		posicion: 2,
 	},{
 		nombre: "Visual Studio Code",
 		porcentaje: "85",
+		posicion: 2,
+	},{
+		nombre: "Postman",
+		porcentaje: "70",
 		posicion: 2,
 	},{
 		nombre: "Adroid Studio",
