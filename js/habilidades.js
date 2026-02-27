@@ -79,7 +79,7 @@ window._my_tecnicas = [
 		posicion: 1,
 	},{
 		nombre: "React Native",
-		porcentaje: "70",
+		porcentaje: "65",
 		posicion: 1,
 	},{
 		nombre: "Angular / Vue",
@@ -107,7 +107,7 @@ window._my_tecnicas = [
 		posicion: 1,
 	},{
 		nombre: "TypeScript",
-		porcentaje: "40",
+		porcentaje: "55",
 		posicion: 1,
 	},{
 		nombre: "MySQL",
@@ -134,8 +134,8 @@ window._my_tecnicas = [
 		porcentaje: "55",
 		posicion: 2,
 	},{
-		nombre: "Kotlin",
-		porcentaje: "25",
+		nombre: "Google Cloud",
+		porcentaje: "50",
 		posicion: 2,
 	},{
 		nombre: "QGis",
