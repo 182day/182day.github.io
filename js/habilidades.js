@@ -15,8 +15,8 @@ window._my_educacion = [
 		escuela: 'Instituto Tecnológico de Pachuca',
 		link: 'https://itp.itpachuca.edu.mx/',
 	},{
-		nivel: 'Cursos: React, NODE, React Navive, Git + GitHub',
-		nivelIN: 'Courses: React, NODE, React Navive, Git + GitHub',
+		nivel: 'Cursos: React, NODE, React Native, Git + GitHub',
+		nivelIN: 'Courses: React, NODE, React Native, Git + GitHub',
 		escuela: 'UDEMY',
 		link: 'https://www.udemy.com/',
 	},{
