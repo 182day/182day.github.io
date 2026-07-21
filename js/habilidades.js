@@ -12,11 +12,26 @@ window._my_educacion = [
 	},{
 		nivel: 'Universidad',
 		nivelIN: 'University',
-		escuela: 'Instituto Tecnológico de Pachuca',
+		escuela: 'Tecnológico Nacional de México',
 		link: 'https://itp.itpachuca.edu.mx/',
+	},/*{
+		nivel: 'Visual Studio Code: Mejora tu velocidad para codificar',
+		nivelIN: 'Visual Studio Code: Improve your coding speed',
+		escuela: '{dev/talles}',
+		link: 'https://cursos.devtalles.com/certificates/08qkd8uoqc',
 	},{
-		nivel: 'Cursos: React, NODE, React Native, Git + GitHub',
-		nivelIN: 'Courses: React, NODE, React Native, Git + GitHub',
+		nivel: 'GIT+GitHub: Todo un sistema de control de versiones de cero',
+		nivelIN: 'GIT+GitHub: A complete version control system from scratch',
+		escuela: 'UDEMY',
+		link: 'https://www.udemy.com/certificate/UC-31930a3a-52ae-425b-8fa5-a858653f3a47/',
+	},{
+		nivel: 'TypeScript: Tu completa guía y manual de mano',
+		nivelIN: 'TypeScript: Your Complete Guide and Handbook',
+		escuela: 'UDEMY',
+		link: 'https://www.udemy.com/certificate/UC-151c9c2e-eb71-4e76-b72d-bcd2274a7db0/',
+	},*/{
+		nivel: 'Cursos: SQL, PHP, React, NODE, React Native, Angular, Vue, Laravel',
+		nivelIN: 'Courses: SQL, PHP, React, NODE, React Native, Angular, Vue, Laravel',
 		escuela: 'UDEMY',
 		link: 'https://www.udemy.com/',
 	},{
@@ -42,16 +57,20 @@ window._my_experiencia = [
 		descIN: 'Cashier at "MEGA Comercial Mexicana". (2008 - 2009)',
 		link: '',
 	},{
-		desc: 'Administrador general, diseñador e impresor en "Esmagenta". (2014 - 2018)',
-		descIN: 'General administrator, designer and printer at "Esmagenta". (2014 - 2018)',
+		desc: 'Mercadotecnia, diseñador e impresor en "Esmagenta". (2014 - 2018)',
+		descIN: 'Marketing, designer and printer at "Esmagenta". (2014 - 2018)',
 		link: '',
 	},{
-		desc: 'Desarrollo web en "A+ Group Consulting" y "FireCom". (2021 - 2025)',
-		descIN: 'Web development at "A+ Group Consulting" and "FireCom". (2021 - 2025)',
+		desc: 'Desarrollo web en "FireCom". (2017 - 2020)',
+		descIN: 'Web development at "FireCom". (2017 - 2020)',
+		link: '',
+	},{
+		desc: 'Desarrollo web en "A+ Group Consulting". (2017 - 2020)',
+		descIN: 'Web development at "A+ Group Consulting". (2017 - 2020)',
 		link: 'https://agc.com.mx/',
 	},{
-		desc: 'Desarrollo de sistemas y soporte técnico en "Call Center MetLife - Grupo Invictus". (2020 - 2025)',
-		descIN: 'Systems development and technical support in the "Call Center MetLife - Grupo Invictus". (2020 - 2025)',
+		desc: 'Desarrollo de sistemas y soporte técnico en "MetLife - Grupo Invictus". (2020 - 2025)',
+		descIN: 'Systems development and technical support in the "MetLife - Grupo Invictus". (2020 - 2025)',
 		link: 'https://metlife.grupoinviktus.com',
 	},{
 		desc: 'Diseño, programación y soporte infórmatico en la "Secretaría de Desarrollo Económico". (2013 - 2025)',
@@ -82,7 +101,11 @@ window._my_tecnicas = [
 		porcentaje: "65",
 		posicion: 1,
 	},{
-		nombre: "Angular / Vue",
+		nombre: "Angular",
+		porcentaje: "25",
+		posicion: 1,
+	},{
+		nombre: "Vue",
 		porcentaje: "20",
 		posicion: 1,
 	},{
@@ -130,6 +153,18 @@ window._my_tecnicas = [
 		porcentaje: "70",
 		posicion: 1,
 	},{
+		nombre: "Laravel",
+		porcentaje: "42",
+		posicion: 1,
+	},{
+		nombre: "Firebase",
+		porcentaje: "45",
+		posicion: 2,
+	},{
+		nombre: "Docker",
+		porcentaje: "32",
+		posicion: 2,
+	},{
 		nombre: "Figma",
 		porcentaje: "60",
 		posicion: 2,
@@ -146,7 +181,7 @@ window._my_tecnicas = [
 		porcentaje: "55",
 		posicion: 2,
 	},{
-		nombre: "Google Cloud",
+		nombre: "Google Cluod",
 		porcentaje: "50",
 		posicion: 2,
 	},{
@@ -164,10 +199,6 @@ window._my_tecnicas = [
 	},{
 		nombre: "Illustrator",
 		porcentaje: "90",
-		posicion: 2,
-	},{
-		nombre: "Flash / Edge Animate",
-		porcentaje: "70",
 		posicion: 2,
 	},{
 		nombre: "Premiere",
@@ -342,23 +373,207 @@ window._my_portafolio = [
 		categoriaIN: 'Systems/Sites',
 		proyecto: [
 			{
+				id: 17,
+				foto: 'img/otros/intranet.gif?v=0',
+				link: '',
+				titulo: 'Intranet',
+				descripcion: 'Secretaría de Desarrollo Económico',
+				fotos: [
+					{
+						img: "img/otros/intranet/1.jpg",
+						title: "Presentación",
+					},
+					{
+						img: "img/otros/intranet/2.jpg",
+						title: "Intranet",
+					},{
+						img: "img/otros/intranet/3.jpg",
+						title: "Inicio",
+					},{
+						img: "img/otros/intranet/4.jpg",
+						title: "Menú",
+					},{
+						video: "https://www.youtube.com/embed/tJjmmVER9ec?si=udAIBKXaKp6FBLdt",
+						title: "Intranet",
+					},{
+						img: "img/otros/intranet/5.jpg",
+						title: "SIGA",
+					},{
+						img: "img/otros/intranet/6.jpg",
+						title: "Inversiones",
+					},{
+						img: "img/otros/intranet/7.jpg",
+						title: "Recursos Humanos",
+					},{
+						img: "img/otros/intranet/8.jpg",
+						title: "Recursos Humanos",
+					},{
+						img: "img/otros/intranet/9.jpg",
+						title: "QR",
+					},{
+						img: "img/otros/intranet/10.jpg",
+						title: "Reporte",
+					},{
+						img: "img/otros/intranet/11.jpg",
+						title: "Soporte Informático",
+					},{
+						img: "img/otros/intranet/12.jpg",
+						title: "Conclusión",
+					},{
+						img: "img/otros/intranet/13.jpg",
+						title: "Fernando",
+					},
+				],
+			},{
+				id: 3,
+				foto: 'img/otros/mapa.gif?v=0',
+				link: 'https://mapa.investhidalgo.mx/index.html',
+				botones: 1,
+				titulo: 'Mapa Económico',
+				descripcion: 'Mapa Económico',
+				video: "https://www.youtube.com/embed/DkPaTerIq7c?si=FmfXFgsW3RavjP1E"
+			},{
+				id: 9,
+				foto: 'img/otros/inviktus.gif?v=0',
+				link: '',
+				titulo: 'Grupo Invictus',
+				descripcion: 'MetLife',
+				fotos: [
+					{
+						img: "img/otros/invictus/1.jpg",
+						title: "Presentación",
+					},{
+						img: "img/otros/invictus/2.jpg",
+						title: "Descripción",
+					},{
+						img: "img/otros/invictus/3.jpg",
+						title: "Descubriendo la vida juntos",
+					},{
+						img: "img/otros/invictus/4.jpg",
+						title: "Inicio",
+					},{
+						img: "img/otros/invictus/5.jpg",
+						title: "Métricas",
+					},{
+						img: "img/otros/invictus/6.jpg",
+						title: "Ventas",
+					},{
+						img: "img/otros/invictus/7.jpg",
+						title: "Proyecto",
+					},{
+						img: "img/otros/invictus/8.jpg",
+						title: "Fernando",
+					},
+				]
+			},{
 				id: 1,
-				foto: 'img/otros/investh.gif',
+				foto: 'img/otros/investh.gif?v=0',
 				link: 'http://investhidalgo.mx',
 				titulo: 'Invest Hidalgo',
 				descripcion: 'Invest Hidalgo',
+				fotos: [
+					{
+						img: "img/otros/investh/1.jpg",
+						title: "Presentación",
+					},{
+						img: "img/otros/investh/2.jpg",
+						title: "Descripción",
+					},{
+						img: "img/otros/investh/3.jpg",
+						title: "Sitio",
+					},{
+						img: "img/otros/investh/4.jpg",
+						title: "Proyecto",
+					},{
+						img: "img/otros/investh/5.jpg",
+						title: "Fernando",
+					},
+				]
+			},{
+				id: 14,
+				foto: 'img/otros/sedeco.gif',
+				link: 'https://sedeco.hidalgo.gob.mx/',
+				titulo: 'Secretaría de Desarrollo Económico',
+				descripcion: 'Secretaría de Desarrollo Económico',
+			},{
+				id: 11,
+				foto: 'img/otros/kantina.gif',
+				link: 'https://kantinalibre.com/',
+				titulo: 'Kantina Libre',
+				descripcion: 'Tequila',
+				fotos: [
+					{
+						img: "img/otros/kantina/1.jpg",
+						title: "Presentación",
+					},{
+						img: "img/otros/kantina/2.jpg",
+						title: "Descripción",
+					},{
+						img: "img/otros/kantina/3.jpg",
+						title: "Inicio",
+					},{
+						img: "img/otros/kantina/4.jpg",
+						title: "Carrito",
+					},{
+						img: "img/otros/kantina/5.jpg",
+						title: "Pantallas",
+					},{
+						img: "img/otros/kantina/6.jpg",
+						title: "Proyecto",
+					},{
+						img: "img/otros/kantina/7.jpg",
+						title: "Fernando",
+					},
+				]
+			},{
+				id: 8,
+				foto: 'img/otros/gastos.gif',
+				link: 'https://fer.agc.com.mx/gastosFer.apk',
+				titulo: 'Gastos',
+				app: 1,
+				descripcion: 'Control de gastos',
+				fotos: [
+					{
+						img: "img/otros/gastos/1.jpg",
+						title: "Presentación",
+					},{
+						img: "img/otros/gastos/2.jpg",
+						title: "Descripción",
+					},{
+						img: "img/otros/gastos/3.jpg",
+						title: "Capturas de pantalla",
+					},{
+						img: "img/otros/gastos/4.jpg",
+						title: "Funcionalidades",
+					},{
+						img: "img/otros/gastos/5.jpg",
+						title: "Capturas de pantalla",
+					},{
+						img: "img/otros/gastos/6.jpg",
+						title: "Proyecto",
+					},{
+						img: "img/otros/gastos/7.jpg",
+						title: "Fernando",
+					},
+				]
+			},{
+				id: 27,
+				foto: 'img/otros/cien.gif',
+				link: 'https://cien.agc.com.mx/',
+				titulo: 'Cien Invitados Dijeron',
+				descripcion: 'Juego de 100 invitados dijeron',
+			},{
+				id: 28,
+				foto: 'img/otros/babyshower.gif',
+				link: 'https://babyshower.agc.com.mx/',
+				titulo: 'Baby Shower',
+				descripcion: 'Baby Shower - Andrea & Fer',
 			},{
 				id: 2,
 				foto: 'img/otros/c21.gif',
 				link: 'https://cambio21.com.mx/',
 				titulo: 'Cambio 21',
 				descripcion: 'Noticias',
-			},{
-				id: 3,
-				foto: 'img/otros/mapa.gif',
-				link: 'https://mapa.investhidalgo.mx/index.html',
-				titulo: 'Mapa Económico',
-				descripcion: 'Mapa Económico',
 			},{
 				id: 21,
 				foto: 'img/otros/llano.gif',
@@ -379,7 +594,7 @@ window._my_portafolio = [
 				descripcion: 'LOS TRES CALAVERA',
 			},{
 				id: 22,
-				foto: 'img/otros/hgo.gif',
+				foto: 'img/otros/energia.gif',
 				link: 'https://energiaparaelbienestar.hidalgo.gob.mx/',
 				titulo: 'Energía para el bienestar',
 				descripcion: 'Agencia Estatal de Energía de Hidalgo',
@@ -389,6 +604,12 @@ window._my_portafolio = [
 				link: 'https://carnesperan.com.mx/',
 				titulo: 'Distribuidora de Carnes Peran',
 				descripcion: 'Distribuidora de Carnes Peran',
+			},{
+				id: 32,
+				foto: 'img/otros/paneles.gif',
+				link: 'https://energiaquetransforma.hidalgo.gob.mx/',
+				titulo: 'Energía que transforma',
+				descripcion: 'Agencia Estatal de Energía de Hidalgo',
 			},{
 				id: 5,
 				foto: 'img/otros/cluster.gif',
@@ -408,18 +629,6 @@ window._my_portafolio = [
 				titulo: 'Emma Picasso',
 				descripcion: 'Endocrinología Pediátrica',
 			},{
-				id: 8,
-				foto: 'img/otros/gastos.gif',
-				link: 'https://fer.agc.com.mx/gastosFer.apk',
-				titulo: 'Gastos',
-				descripcion: 'Control de gastos',
-			},{
-				id: 9,
-				foto: 'img/otros/inviktus.gif',
-				link: '',
-				titulo: 'Grupo Invictus',
-				descripcion: 'MetLife',
-			},{
 				id: 24,
 				foto: 'img/otros/metlife.gif',
 				link: 'https://metlife.grupoinviktus.com/',
@@ -427,7 +636,7 @@ window._my_portafolio = [
 				descripcion: 'MetLife',
 			},{
 				id: 23,
-				foto: 'img/otros/hgo.gif',
+				foto: 'img/otros/becas.gif',
 				link: 'https://becasparalasostenibilidad.hidalgo.gob.mx/',
 				titulo: 'Becas para la sostenibilidad',
 				descripcion: 'Agencia Estatal de Energía de Hidalgo',
@@ -438,12 +647,6 @@ window._my_portafolio = [
 				//link: 'https://twobeatsound.com.mx/',
 				titulo: 'TWO BEAT SOUND',
 				descripcion: 'DJ',
-			},{
-				id: 11,
-				foto: 'img/otros/kantina.gif',
-				link: 'https://kantinalibre.com/',
-				titulo: 'Kantina Libre',
-				descripcion: 'Tequila',
 			},{
 				id: 12,
 				foto: 'img/otros/esmagenta.gif',
@@ -457,12 +660,6 @@ window._my_portafolio = [
 				titulo: 'Auto Vestiduras Especiales',
 				descripcion: 'Vestiduras de auto',
 			},{
-				id: 14,
-				foto: 'img/otros/hgo.gif',
-				link: 'https://sedeco.hidalgo.gob.mx/',
-				titulo: 'Secretaría de Desarrollo Económico',
-				descripcion: 'Secretaría de Desarrollo Económico',
-			},{
 				id: 15,
 				foto: 'img/otros/dos.gif',
 				link: 'https://dosdehidalgo.com.mx/',
@@ -473,12 +670,6 @@ window._my_portafolio = [
 				foto: 'img/otros/hgo.gif',
 				link: '',
 				titulo: 'Mi primer empleo',
-				descripcion: 'Secretaría de Desarrollo Económico',
-			},{
-				id: 17,
-				foto: 'img/otros/intranet.gif',
-				link: '',
-				titulo: 'Intranet',
 				descripcion: 'Secretaría de Desarrollo Económico',
 			},{
 				id: 18,
@@ -504,7 +695,38 @@ window._my_portafolio = [
 				link: 'https://servicioacaminadoras.com/',
 				titulo: 'Servicio a Caminadoras y Gimnasios',
 				descripcion: 'Servicio a Caminadoras y Gimnasios',
+			},{
+				id: 29,
+				foto: 'img/otros/hgo.gif',
+				link: '',
+				titulo: 'Sistema de Entrega Recepción',
+				descripcion: 'Secretaría de Desarrollo Económico',
+			},{
+				id: 30,
+				foto: 'img/otros/coffe.gif',
+				link: '',
+				titulo: 'Sistema de Nómina - Coffee Park',
+				descripcion: 'Sistema de Nómina',
+			},{
+				id: 31,
+				foto: 'img/otros/hgo.gif',
+				link: '',
+				titulo: 'Sistema de Gestión Digital - SIGA',
+				descripcion: 'Secretaría de Desarrollo Económico',
+			},{
+				id: 22,
+				foto: 'img/otros/elbrus.gif',
+				link: '',
+				titulo: 'Sistema de Control Escolar - Colegio Elbrus',
+				descripcion: 'Colegio Elbrus',
+			},{
+				id: 29,
+				foto: 'img/otros/papeleria.gif',
+				link: '',
+				titulo: 'Sistema de Inventarios - Papelería y Bienes Informáticos',
+				descripcion: 'Secretaría de Desarrollo Económico',
 			},
+			//SIGUE 33
 		]
 	},{
 		id: 2,
@@ -595,107 +817,77 @@ window._my_servicios = [
 	{
 		nombre: "Administración de bases de datos",
 		nombreIN: "Database administration",
-		descripcion: "<ul>\n\
-			<li>Realizar el backup, recuperación de base de datos y recuperación del servidor en caso de falla o para consulta posterior de la información para la continuidad del negocio</li>\n\
-			<li>Realizar mejoras de rendimiento tunning con la finalidad de optimizar las base de datos o de servidores</li>\n\
-			<li>Crear programas de migración de datos para los cambios solicitados de las diferentes compañías de la Institución</li>\n\
-			<li>Ejecutar programas de carga para las modificaciones de estructura a tablas de la base de datos que contienen gran cantidad de registros para evitar que se queden sin recursos</li>\n\
-			<li>Mantener la seguridad de la base de datos controlando el uso de las contraseñas de los usuarios actualizándolas cada cierto periodo por políticas de seguridad y a solicitud del área de Auditoría</li>\n\
-			<li>Realizar la liberación a producción DDL (creación de base de datos, objetos, procedimientos) para definir las estructuras que almacenarán los datos así como los procedimientos o funciones que permitan consultarlos</li>\n\
-			<li>Dar soporte a producción DML (consultas, modificación, actualización de BD) que permita a los usuarios introducir datos para realizar tareas de consultas o modificación de las Bases de Datos</li>\n\
-			<li>Realizar la estandarización de nombres de objetos como son tablas, campos, índices, funciones, stored procedure, para tener un control adecuado en la base de datos</li>\n\
-		</ul>",
-		descripcionIN: "",
+		descripcion: "Diseño, modelado y optimización de bases de datos relacionales y no relacionales. Experiencia en la gestión de datos seguros, respaldos, consultas avanzadas y restauración de bases de datos.",
+		descripcionIN: "Designing, modeling, and optimizing both relational and non-relational databases. Experienced in secure data management, backups, advanced queries, and database restoration.",
 	},{
 		nombre: "Desarrollo de sistemas",
 		nombreIN: "Software development",	
-		descripcion: "Diseño, desarrollo, implementación y soporte a soluciones tecnológicas que respondan a las necesidades de tu organización de manera ágil y eficaz.",
-		descripcionIN: "",
+		descripcion: "Diseño y construcción de plataformas web robustas utilizando arquitecturas modernas. Capacidad para estructurar sistemas complejos basados en roles de usuario, lógica de negocio avanzada y flujos de trabajo automatizados.",
+		descripcionIN: "Design and development of robust web platforms using modern architectures. Strong ability to structure complex systems based on user roles, advanced business logic, and automated workflows.",
 	},{
 		nombre: "Desarrollo de aplizaciones móviles",
 		nombreIN: "Mobile application development",
-		descripcion: "<b>Desarrollo de Aplicaciones Móviles Personalizadas</b>\n\
-		<br/><br/>\n\
-		Aplicaciones web, móviles e híbridas altamente escalables, flexibles e interoperables.\n\
-		<br/><br/>\n\
-		API personalizadas para todas las clases de aplicaciones, agregando funcionalidad a sus sistemas de software y facilitando la comunicación entre sus aplicaciones y de terceros.",
-		descripcionIN: "",
+		descripcion: "Construcción de soluciones móviles funcionales, integrando flujos de datos dinámicos y conectividad con servidores o APIs para ofrecer una experiencia fluida desde dispositivos portátiles.",
+		descripcionIN: "Building functional mobile solutions, integrating dynamic data flows and connectivity with servers or APIs to deliver a smooth user experience on portable devices.",
 	},{
 		nombre: "Diseño de baners y animación",
 		nombreIN: "Banner and animation design",
-		descripcion: "Diseño de banners publicitarios.",
-		descripcionIN: "",
+		descripcion: "Creación de material publicitario visual estático y animado para portales web, plataformas internas o campañas digitales, enfocado en captar la atención del usuario.",
+		descripcionIN: "Creating static and animated visual advertising materials for web portals, internal platforms, or digital campaigns, designed to capture user engagement.",
 	},{
 		nombre: "Diseño gráfico",
 		nombreIN: "Graphic design",
-		descripcion: "Desde logotipos y branding hasta materiales promocionales y diseños web, te ofrecemos soluciones de diseño creativas y profesionales.",
-		descripcionIN: "",
+		descripcion: "Creación de conceptos visuales profesionales para comunicación institucional o comercial, manteniendo coherencia de marca, teoría del color y una composición equilibrada.",
+		descripcionIN: "Developing professional visual concepts for institutional or commercial communication, ensuring brand consistency, proper color theory, and balanced compositions.",
 	},{
 		nombre: "Diseño Web",
 		nombreIN: "Web design",
-		descripcion: "Soluciones de desarrollo web que faciliten los flujos de trabajo, aumenten los ingresos y optimizen las operaciones comerciales",
-		descripcionIN: "",
+		descripcion: "Creación de interfaces de usuario (UI) atractivas, limpias y funcionales. Enfoque en la experiencia de usuario (UX) y maquetación responsiva para asegurar que las plataformas se adapten perfectamente a cualquier dispositivo.",
+		descripcionIN: "Creating attractive, clean, and functional User Interfaces (UI). Strong focus on User Experience (UX) and responsive layouts to ensure platforms adapt seamlessly to any device.",
 	},{
 		nombre: "Edición de vídeo",
 		nombreIN: "Video edition",
-		descripcion: "Servicio de videomarketing te brinda la oportunidad de transmitir tu mensaje de manera impactante a través de videos profesionales.",
-		descripcionIN: "",
+		descripcion: "Producción y postproducción de material audiovisual, integrando cortes precisos, transiciones, audio y elementos gráficos para presentaciones institucionales, tutoriales o contenido promocional.",
+		descripcionIN: "Audiovisual production and post-production, integrating precise cuts, transitions, audio, and graphic elements for institutional presentations, tutorials, or promotional content.",
 	},{
 		nombre: "Edición y restauración de fotografías",
-		nombreIN: "Editing and restoration of photographs",
-		descripcion: "<ul>\n\
-			<li>Retoque de piel de alta gama mediante métodos avanzados (Aspecto natural)</li>\n\
-			<li>Las texturas de la piel se conservarán en el proceso</li>\n\
-			<li>Eliminar imperfecciones/arrugas</li>\n\
-			<li>Blanquear los dientes</li>\n\
-			<li>Hacer reducción de edad</li>\n\
-			<li>Colorea cualquier imagen usando Photoshop</li>\n\
-			<li>Restaurar fotos antiguas o dañadas</li>\n\
-			<li>Mejora de la imagen del producto (Para eBay, Amazon, Esty, etc.)</li>\n\
-			<li>Retoque fotográfico de belleza/moda</li>\n\
-			<li>Fotos de portada y perfil (para Fiverr, facebook, youtube, etc.)</li>\n\
-			<li>Quitar/cambiar fondos</li>\n\
-			<li>Reemplazar/añadir/eliminar parte de una foto</li>\n\
-			<li>Manipulación de fotografías/intercambio de cabezales</li>\n\
-			<li>Mejora tus fotos aburridas (Brillo/contraste/relámpago/gamma/exposición, etc.)</li>\n\
-			<li>Correcciones de color</li>\n\
-			<li>Cambiar tamaño/recortar imágenes</li>\n\
-		</ul>",
-		descripcionIN: "",
+		nombreIN: "Photo editing and restoration",
+		descripcion: "Tratamiento digital de imágenes mediante corrección de color, retoque avanzado y reconstrucción de material fotográfico dañado o heredado.",
+		descripcionIN: "Digital image processing, including color correction, advanced retouching, and the restoration of damaged or legacy photographic material.",
 	},{
 		nombre: "Impresión en serigrafía",
 		nombreIN: "Serigraphy",
-		descripcion: "",
-		descripcionIN: "",
+		descripcion: "Dominio del proceso técnico de separación de color, revelado de marcos y técnicas de impresión textil o publicitaria para producción física.",
+		descripcionIN: "Mastery of the technical process of color separation, screen burning, and textile or promotional printing techniques for physical production.",
 	},{
 		nombre: "Redes sociales",
-		nombreIN: "Social networks",
-		descripcion: "Conecta con tu audiencia, domina nuevas estrategias e involucra a tu comunidad en las redes sociales.",
-		descripcionIN: "",
+		nombreIN: "Social media",
+		descripcion: "Gestión, diseño y optimización de contenido para canales digitales, orientando la comunicación visual hacia el alcance de objetivos de interacción y posicionamiento de marca.",
+		descripcionIN: "Management, design, and optimization of content for digital channels, aligning visual communication to achieve engagement goals and brand positioning.",
 	},{
 		nombre: "Soporte técnico",
 		nombreIN: "Technical support",
-		descripcion: "Soporte integral, que cubre todas las necesidades de tu empresa. Nuestros servicios abarcan áreas clave como usuarios, hardware, software, redes informáticas, servidores y respaldo de datos.",
-		descripcionIN: "",
+		descripcion: "Diagnóstico, mantenimiento preventivo/correctivo de hardware y software, resolución de incidencias en sistemas operativos y configuración de entornos de trabajo controlados.",
+		descripcionIN: "Diagnosis, preventive and corrective hardware/software maintenance, operating system troubleshooting, and configuration of controlled working environments.",
 	},{
 		nombre: "Sublimación en artículos",
-		nombreIN: "Sublimation on products",
-		descripcion: "",
-		descripcionIN: "",
+		nombreIN: "Sublimation on items",
+		descripcion: "Personalización y transferencia térmica de diseños de alta calidad sobre una amplia variedad de promocionales y artículos rígidos o textiles.",
+		descripcionIN: "Customization and thermal transfer of high-quality designs onto a wide variety of promotional, rigid, or textile products.",
 	},{
 		nombre: "Vectorización de logos e imagenes",
-		nombreIN: "Vectorization of logos and images",
-		descripcion: "",
-		descripcionIN: "",
+		nombreIN: "Logo and image vectorization",
+		descripcion: "Conversión de gráficos e identidades visuales a formatos vectoriales escalables de alta precisión, garantizando su óptima aplicación en medios digitales o impresos sin pérdida de calidad.",
+		descripcionIN: "Converting graphics and visual identities into high-precision, scalable vector formats, ensuring optimal application across digital or print media without quality loss.",
 	},{
 		nombre: "Venta y/o cotización de equipo de computo",
-		nombreIN: "Sale and/or quote of computer equipment",
-		descripcion: "Asesoramiento en equipo de computo, caracteristicas, costos, beneficios etc.",
-		descripcionIN: "",
+		nombreIN: "Computer equipment sales and/or quoting",
+		descripcion: "Asesoría técnica especializada para la selección, ensamble y presupuesto de hardware informático adaptado a las necesidades operativas específicas de cada usuario o empresa.",
+		descripcionIN: "Specialized technical consulting for selecting, assembling, and budgeting IT hardware tailored to the specific operational needs of users or businesses.",
 	},{
 		nombre: "Ventas en linea (Market place, Mercado Libre, Amazon)",
 		nombreIN: "Online sales (Market place, Mercado Libre, Amazon)",
-		descripcion: "Apertura de tu cuenta, carga de tu catálogo, configuración de la Logística del marketplace, promociones, y construcción de tus primeras campañas de publicidad, hasta capacitarte para que puedas continuar con tu operación de forma independiente.",
-		descripcionIN: "",
+		descripcion: "Administración de tiendas virtuales, optimización de listados de productos (SEO e imágenes), gestión de inventarios y control operativo dentro de las plataformas de comercio electrónico más importantes.",
+		descripcionIN: "E-commerce store management, product listing optimization (SEO and imagery), inventory management, and operational control within major e-commerce platforms.",
 	},
 ];
