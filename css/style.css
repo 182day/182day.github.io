@@ -252,10 +252,19 @@ h8{
   text-transform: uppercase;
   font-size: 22px;
 }
+.modal_grande .modal-dialog {
+  max-width: 1200px !important;
+}
+.videos_youtube{
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+}
 .flex_informacion{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 50px;
 }
 .lista a{
   text-decoration: none;
@@ -330,7 +339,7 @@ h8{
   display: flex;
   justify-content: flex-end;
 }
-.boton_cv a{
+.boton_cv a, .boton_ir a{
   background-color: var(--blanco);
   color: var(--negro);
   cursor: pointer;
@@ -342,7 +351,21 @@ h8{
   font-weight: 400;
   text-transform: uppercase;
 }
-.boton_cv a:hover{
+.boton_ir{
+  display: flex;
+}
+.boton_ir_center{
+  justify-content: center;
+  margin-top: 12.5px;
+}
+.boton_ir_end{
+  justify-content: flex-end;
+  margin-bottom: 12.5px;
+}
+.boton_ir_end a{
+  padding: 5px 25px; 
+}
+.boton_cv a:hover, .boton_ir a:hover{
   background-color: var(--gris);
 }
 .flex_portafolio{
@@ -491,6 +514,17 @@ h13{
 }
 .accordion-body{
   background-color: var(--blanco);
+}
+.flex_fotos_sistemas{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 12.5px;
+}
+.fotos_sistemas{
+  width: 100%;
+  border-radius: 15px;
 }
 /*****FIN INICIO*****/
 /*****MENU*****/
@@ -912,9 +946,9 @@ h13{
     margin-bottom: 15px;
   }
   .flex_informacion{
-    flex-flow: column;
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
   }
   .t_titulo{
     font-size: 16px;
